@@ -3,6 +3,6 @@ import { getEmbedUrl } from "../controllers/embed";
 
 const router = Router();
 
-router.get("/embed", getEmbedUrl);
+router.post("/embed", getEmbedUrl);
 
 export { router };
